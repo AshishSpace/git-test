@@ -1,0 +1,21 @@
+Git Commands:
+
+1.to initialize git empty repository
+git init
+
+2. set global username and email id:
+git config --global user.name "AshishSpace"
+git config --global user.email "ashishkr240795@gmail.com"
+
+3. to add all file in staging area
+git add .
+
+4. to know the current status of working directory
+git status
+
+5. to move file to git repository
+git commit -m "this is initial commit"
+-m option to add message while commiting
+
+
+
