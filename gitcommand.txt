@@ -30,5 +30,15 @@ EXample: git checkout f0f167022ddd35e987e28a2132b849410620e0d5
 8. to list all of the commits
 git log --all
 
-9.
+9. to attach the repository
+git checkout branch_name
+Example: git checkout master
 
+10. to unstage the file
+git rm --cached filename
+example: git rm --cached FileA.txt
+
+11.a create a branch and start working with branch directly
+git checkout -b featureA
+11.b to move between branch
+git checkout branch_name
