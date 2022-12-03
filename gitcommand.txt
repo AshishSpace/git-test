@@ -1,5 +1,8 @@
 Git Commands:
 
+Documentation link for git Commands
+https://git-scm.com/docs/git
+
 1.to initialize git empty repository
 git init
 
@@ -17,5 +20,15 @@ git status
 git commit -m "this is initial commit"
 -m option to add message while commiting
 
+6. to see the entire history of changes made to git repository
+git log
 
+7. to go back to previos commits
+git checkout commit_no.
+EXample: git checkout f0f167022ddd35e987e28a2132b849410620e0d5
+
+8. to list all of the commits
+git log --all
+
+9.
 
